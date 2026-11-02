@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Fanpage educativa de BTS y sus tres conciertos en Lima en 2026."
+  >
+  <title>BTS Perú | Fanpage no oficial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    class conecta un elemento con sus estilos en el archivo CSS.
+    id identifica un elemento; href="#..." permite ir hasta ese elemento.
+    aria-label da un nombre para lectores de pantalla.
+    aria-labelledby usa el id de un titulo como nombre accesible.
+  -->
+  <!-- Menu principal: logo, enlaces y boton Mirar ahora -->
+  <header class="encabezado">
+    <nav class="menu-principal contenedor" aria-label="Navegación principal">
+      <a class="enlace-logo" href="#inicio" aria-label="BTS, volver al inicio">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/BTS_text_logo.svg"
+          alt="Logotipo de BTS"
+        >
+      </a>
+
+      <ul class="enlaces-menu">
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#momentos">Momentos</a></li>
+      </ul>
+
+      <!--
+        target="_blank" abre el enlace en otra pestaña.
+        rel="noopener noreferrer" evita compartir acceso a esta pagina
+        y su direccion de origen con la pagina de destino.
+      -->
+      <a
+        class="boton-principal"
+        href="https://www.youtube.com/user/BANGTANTV"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Mirar ahora
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portada: presentacion de BTS y acceso a los integrantes -->
+    <section class="portada" id="inicio" aria-labelledby="titulo-portada">
+      <img
+        class="foto-portada"
+        src="https://f.rpp-noticias.io/2026/10/07/135113_1915998.jpg?quality=80&amp;width=1020"
+        alt="BTS actúa ante el público en el Estadio San Marcos de Lima"
+      >
+
+      <div class="capa-oscura-portada"></div>
+
+      <div class="contenedor contenido-portada">
+        <p class="aviso-no-oficial">Fanpage no oficial</p>
+
+        <img
+          class="logo-portada"
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/BTS_text_logo.svg"
+          alt="Logotipo de BTS"
+        >
+
+        <h1 id="titulo-portada">BTS en Lima: tres conciertos para recordar</h1>
+        <p>
+          La espera terminó: BTS llegó a Perú y compartió tres noches de música
+          con ARMY en el Estadio San Marcos. Revive su paso por Lima y conoce
+          a los siete integrantes del grupo.
+        </p>
+
+        <a class="enlace-integrantes" href="#integrantes">Conoce a los integrantes</a>
+      </div>
+    </section>
+
+    <!-- Integrantes: fotografia, nombre y descripcion de cada miembro -->
+    <section class="seccion" id="integrantes" aria-labelledby="titulo-integrantes">
+      <div class="contenedor">
+        <p class="nombre-seccion">Integrantes</p>
+        <h2 id="titulo-integrantes">Conoce a los siete integrantes</h2>
+        <p class="descripcion-seccion">
+          Cada uno aporta su propio estilo a la música y las presentaciones de BTS.
+        </p>
+
+        <!--
+          Cada li contiene un integrante.
+          loading="lazy" retrasa la carga de fotos que aun no se ven.
+        -->
+        <ul class="lista-integrantes">
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/rm.jpg"
+              alt="Retrato oficial en blanco y negro de RM"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>RM</strong>
+              <span>Líder y rapero; también participa en la composición del grupo.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/jin.jpg"
+              alt="Retrato oficial en blanco y negro de Jin"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>Jin</strong>
+              <span>Vocalista y el integrante mayor de BTS.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/suga.jpg"
+              alt="Retrato oficial en blanco y negro de SUGA"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>SUGA</strong>
+              <span>Rapero, compositor y productor musical.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/j-hope.jpg"
+              alt="Retrato oficial en blanco y negro de j-hope"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>j-hope</strong>
+              <span>Rapero y bailarín, conocido por su energía en el escenario.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/jimin.jpg"
+              alt="Retrato oficial en blanco y negro de Jimin"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>Jimin</strong>
+              <span>Vocalista y bailarín destacado por su expresividad.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/v.jpg"
+              alt="Retrato oficial en blanco y negro de V"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>V</strong>
+              <span>Vocalista reconocido por su voz grave.</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://bighitsmusic.com/assets/images/bts/members/jungkook.jpg"
+              alt="Retrato oficial en blanco y negro de Jung Kook"
+              loading="lazy"
+            >
+            <div class="informacion-integrante">
+              <strong>Jung Kook</strong>
+              <span>Vocalista y el integrante más joven del grupo.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Momentos: vistas previas enlazadas a los tres videos -->
+    <section
+      class="seccion seccion-oscura"
+      id="momentos"
+      aria-labelledby="titulo-momentos"
+    >
+      <div class="contenedor">
+        <p class="nombre-seccion">Momentos en Perú</p>
+        <h2 id="titulo-momentos">BTS en Lima, fecha por fecha</h2>
+        <p class="descripcion-seccion">
+          Explora un video de cada concierto en el Estadio San Marcos y revive
+          la emoción del público peruano.
+        </p>
+
+        <!--
+          Cada tarjeta enlaza un video.
+          datetime guarda la fecha en formato año-mes-dia.
+        -->
+        <div class="lista-momentos">
+          <article class="tarjeta-momento">
+            <a
+              class="enlace-video"
+              href="https://www.youtube.com/watch?v=vRbizbNFhyU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir el video de la primera fecha en YouTube"
+            >
+              <img
+                src="https://i.ytimg.com/vi/vRbizbNFhyU/hqdefault.jpg"
+                alt="Vista previa del video de la primera fecha"
+                loading="lazy"
+              >
+            </a>
+            <h3>Primera fecha</h3>
+            <time datetime="2026-10-07">07/10/2026</time>
+          </article>
+
+          <article class="tarjeta-momento">
+            <a
+              class="enlace-video"
+              href="https://www.youtube.com/watch?v=yjgpKqg5rXA"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir el video de la segunda fecha en YouTube"
+            >
+              <img
+                src="https://i.ytimg.com/vi/yjgpKqg5rXA/hqdefault.jpg"
+                alt="Vista previa del video de la segunda fecha"
+                loading="lazy"
+              >
+            </a>
+            <h3>Segunda fecha</h3>
+            <time datetime="2026-10-09">09/10/2026</time>
+          </article>
+
+          <article class="tarjeta-momento">
+            <a
+              class="enlace-video"
+              href="https://www.youtube.com/watch?v=68M0HwVK_0o"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir el video de la tercera fecha en YouTube"
+            >
+              <img
+                src="https://i.ytimg.com/vi/68M0HwVK_0o/hqdefault.jpg"
+                alt="Vista previa del video de la tercera fecha"
+                loading="lazy"
+              >
+            </a>
+            <h3>Tercera fecha</h3>
+            <time datetime="2026-10-10">10/10/2026</time>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de pagina: aviso educativo y enlace al sitio oficial -->
+  <footer class="pie-pagina">
+    <div class="contenedor contenido-pie-pagina">
+      <p>
+        Fanpage educativa no oficial. Sin afiliación con BTS, BIGHIT MUSIC
+        ni HYBE.
+      </p>
+      <a
+        href="https://bighitsmusic.com/bts/profile"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sitio oficial de BTS
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
