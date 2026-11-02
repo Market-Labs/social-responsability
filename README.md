@@ -26,10 +26,6 @@ necesitarán sus propios enlaces precargados cuando se preparen los videos.
 | Herramientas | Navegador, editor de código gratuito en línea, GitHub y YouTube. |
 | Resultado | Fanpage con portada, integrantes, momentos y pie de página. |
 
-El curso corresponde al trabajo complementario de responsabilidad social
-de **1ASI0730 Aplicaciones Web**, ciclo **202620**, de la Universidad
-Peruana de Ciencias Aplicadas.
-
 ## Qué aprenderás
 
 - Reconocer la función de HTML y CSS en una página web.
