@@ -1,5 +1,7 @@
 # Fundamentos de desarrollo web con HTML y CSS
 
+## Resumen del curso
+
 Curso introductorio para crear una fanpage educativa no oficial de BTS,
 pensado para estudiantes de secundaria sin experiencia en programación.
 La práctica combina contenido, imágenes y enlaces con colores, espacios y
@@ -13,8 +15,6 @@ distribuciones sencillas que se pueden explicar paso a paso.
 
 Este enlace es una muestra del resultado. Las prácticas de cada lección
 necesitarán sus propios enlaces precargados cuando se preparen los videos.
-
-## Resumen del curso
 
 | Aspecto | Descripción |
 | --- | --- |
@@ -62,31 +62,6 @@ y los videos se abren en YouTube al seleccionar sus vistas previas.
 El proyecto no utiliza JavaScript, bibliotecas ni pasos de compilación.
 Todas las demostraciones del curso deben realizarse en el editor en línea.
 
-## Estructura del repositorio
-
-```text
-social-responsability/
-├── README.md
-├── .gitignore
-├── starter-files/
-│   ├── index.html
-│   └── styles.css
-├── completed-examples/
-│   ├── index.html
-│   └── styles.css
-└── scripts/
-    └── .gitkeep
-```
-
-- `starter-files`: base sencilla para comenzar las prácticas.
-- `completed-examples`: fanpage terminada que sirve como referencia.
-- `scripts`: carpeta reservada para los guiones de las lecciones;
-  `.gitkeep` permite conservarla en Git mientras se preparan.
-- `.gitignore`: excluye la configuración local de `.idea`.
-
-Las carpetas inicial y final son proyectos separados: cada `index.html`
-utiliza el `styles.css` de su propia carpeta.
-
 ## Proyecto de práctica: BTS Perú
 
 La página terminada mantiene cuatro partes:
@@ -113,94 +88,15 @@ exposición utiliza 28 diapositivas: cinco por lección de la 1 a la 5 y tres
 para la lección 6. Los tiempos incluyen explicación, demostración e
 interacción, y suman 60 minutos.
 
-| Lección | Responsable | Duración | Contenido y práctica | Video no listado | Editor precargado |
-| --- | --- | --- | --- | --- | --- |
-| 1. ¿Qué es una página web? | Matias Daniel Huaranga Romero | 8 min | Reconocer usos, elementos visibles, contenido y apariencia; presentar el proyecto sin enseñar código. | Pendiente | Pendiente |
-| 2. Primeros pasos con HTML | Winnie Lisbeth Merino Ordinola | 10 min | Explicar etiquetas, apertura y cierre, estructura HTML, títulos y párrafos; modificar una presentación sencilla. | Pendiente | Pendiente |
-| 3. Listas, imágenes y enlaces | Andre Sebastian Quispe Almonacid | 8 min | Continuar el ejemplo anterior con una lista, una imagen con texto alternativo y un enlace con destino claro. | Pendiente | Pendiente |
-| 4. Introducción a CSS | Alexis Calin Torres Huaman | 12 min | Explicar selector, propiedad y valor; practicar fondo, fuente, ancho, margen, espacio interior y borde. | Pendiente | Pendiente |
-| 5. Crear una página de perfil | Albino Florencio Cáceres Pizarro | 15 min | Integrar contenido y estilo; realizar una demostración guiada y personalizar el ejemplo, adaptándolo a la fanpage del repositorio. | Pendiente | Pendiente |
-| 6. Errores comunes y próximos pasos | Albino Florencio Cáceres Pizarro | 7 min | Corregir errores, revisar lectura, imágenes y enlaces, y proponer una mejora usando los conceptos aprendidos. | Pendiente | Pendiente |
-| **Total** | | **60 min** | | | |
-
-Cada integrante graba su lección completa; Albino graba las lecciones 5 y 6.
-La lección 1 se centra en lo que ve el visitante: HTML empieza en la lección
-2 y CSS en la 4.
-
-La guía original utiliza un perfil ficticio como ejemplo progresivo. El
-proyecto implementado en este repositorio es una fanpage de BTS que permite
-practicar esos mismos conceptos. Para mantener la continuidad del curso,
-las capturas, los textos de las diapositivas y la demostración deben usar
-el mismo ejemplo elegido desde el inicio.
-
-Los enlaces a los videos y a las prácticas precargadas siguen pendientes
-de publicación. La muestra de CodePen es una referencia del resultado.
-
-Para grabar cada lección:
-
-- Mostrar el código únicamente en un editor gratuito en línea.
-- Explicar con lenguaje sencillo y avanzar desde los conceptos básicos.
-- Incluir narración, texto en pantalla y anotaciones que orienten la práctica.
-- Dejar pausas para que los estudiantes realicen los ejercicios.
-- Reemplazar los recuadros de las diapositivas por capturas reales y legibles.
-- Ajustar el nombre y el icono del editor al que se utiliza en la grabación.
-- Publicar los videos como **no listados** en YouTube.
-- Añadir en cada descripción el enlace al editor precargado de esa práctica.
-- Mantener el contenido y el código sin branding ni referencias a los autores.
-
-## Elaboración en equipo
-
-Los aportes se registran mediante commits en este repositorio público de la
-organización Market-Labs. Se utiliza Conventional Commits para describir
-los cambios, por ejemplo `feat(course): add starter materials` o
-`docs(readme): describe online learning workflow`.
-
-| Dato del equipo | Detalle |
-| --- | --- |
-| Nombre del equipo | MartLabs |
-| NRC | 8130 |
-| Líder | Albino Florencio Cáceres Pizarro (U201923820). |
-| Responsabilidades | Distribución de lecciones según la guía de exposición del equipo. |
-
-### Integrantes
-
-| Código de estudiante | Estudiante | Responsabilidad asignada |
-| --- | --- | --- |
-| U201923820 | Cáceres Pizarro, Albino Florencio | Líder del equipo y responsable de las lecciones 5 y 6. |
-| U202410746 | Huaranga Romero, Matias Daniel | Responsable de la lección 1. |
-| U20231B504 | Merino Ordinola, Winnie Lisbeth | Responsable de la lección 2. |
-| u201815005 | Quispe Almonacid, Andre Sebastian | Responsable de la lección 3. |
-| U20241G152 | Torres Huaman, Alexis Calin | Responsable de la lección 4. |
-
-El reporte individual de participación se entrega por separado en Word y
-PDF, según las indicaciones del curso. Los commits deben reflejar aportes
-reales de cada integrante.
-
-## Estado de preparación y entrega
-
-- [x] Código de la fanpage terminada en HTML y CSS.
-- [x] Archivos iniciales para las prácticas.
-- [x] Instrucciones para trabajar sin instalaciones.
-- [x] Enlace de muestra al proyecto en el editor en línea.
-- [ ] Guiones de grabación en `scripts`.
-- [ ] Enlaces a las seis lecciones no listadas en YouTube.
-- [ ] Enlaces a editores precargados para cada lección.
-- [x] NRC, nombre del equipo y relación de integrantes.
-- [x] Líder confirmado y lecciones asignadas según la guía de exposición.
-- [ ] Resumen de los aportes realizados por cada integrante.
-- [ ] Exportación del plan de curso a PDF para la entrega.
-- [ ] Reporte de participación en Word y PDF.
-- [ ] Revisión de la nomenclatura del repositorio antes de la entrega.
-
-El statement indica el nombre `webdev-course-[nombre del equipo]`, que
-para este equipo sería `webdev-course-MartLabs`. Este proyecto conserva el destino solicitado,
-`Market-Labs/social-responsability`; queda pendiente confirmar la
-nomenclatura con el docente o adecuarla antes de la entrega.
-
-El nombre indicado para el PDF del plan de curso es
-`upc-pre-202620-1asi0730-8130-MartLabs-course-plan.pdf`.
-Este README centraliza el resumen, la secuencia de lecciones, el repositorio,
-las prácticas y la elaboración en equipo para completar ese plan.
+| Lección # | Actividad | Duración | Empezar a Programar |
+|----------|----------|----------|-------------|
+| 1 | ¿Qué es una página web? | 8 min | [CodePen](https://codepen.io/your-lesson1) |
+| 2 | Primeros pasos con HTML | 10 min | [CodePen](https://codepen.io/your-lesson2) |
+| 3 | Listas, imágenes y enlaces | 8 min | [JSFiddle](https://jsfiddle.net/your-lesson3) |
+| 4 | Introducción a CSS | 12 min | [CodePen](https://codepen.io/your-lesson4) |
+| 5 | Crear una página de perfil | 15 min | [CodePen](https://codepen.io/editor/LittleMichi/pen/01a18b3f-5c94-7ce6-8a2f-42be2d6d9be2) |
+| 6 | Errores comunes y próximos pasos | 7 min | [Replit](https://replit.com/@your-lesson6) |
+| **Total** | | **60 min** | |
 
 ## Fuentes del contenido de la fanpage
 
