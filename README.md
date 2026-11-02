@@ -106,21 +106,35 @@ estilos generales, menú, portada, integrantes, momentos, pie de página,
 adaptación a pantallas pequeñas y accesibilidad. Las propiedades se
 escriben en líneas separadas para facilitar la lectura y la exposición.
 
-## Secuencia propuesta de lecciones
+## Secuencia de lecciones según la guía de exposición
 
-Los tiempos incluyen explicaciones, demostraciones y pausas para practicar.
-Los enlaces a las lecciones y a sus prácticas todavía están pendientes de
-publicación; el enlace de muestra no los reemplaza.
+El equipo sigue la guía de desarrollo del curso web para escolares. La
+exposición utiliza 28 diapositivas: cinco por lección de la 1 a la 5 y tres
+para la lección 6. Los tiempos incluyen explicación, demostración e
+interacción, y suman 60 minutos.
 
-| Lección | Duración | Contenido y práctica | Video no listado | Editor precargado |
-| --- | --- | --- | --- | --- |
-| 1. ¿Qué es una página web? | 5 min | Diferenciar contenido HTML y apariencia CSS; reconocer las partes de la fanpage. | Pendiente | Pendiente |
-| 2. Mi primera estructura HTML | 10 min | Explicar etiquetas y atributos; crear un título, un párrafo y las secciones principales. | Pendiente | Pendiente |
-| 3. Imágenes, listas y enlaces | 10 min | Presentar integrantes, agregar imágenes con texto alternativo y enlazar los videos. | Pendiente | Pendiente |
-| 4. Primeros estilos con CSS | 10 min | Vincular el CSS y practicar selectores, colores, fuentes, espacios y bordes. | Pendiente | Pendiente |
-| 5. Construimos la fanpage | 15 min | Organizar el menú y las tarjetas; completar la portada y adaptar el diseño al celular. | Pendiente | Pendiente |
-| 6. Revisamos y compartimos | 10 min | Corregir nombres de archivos y enlaces, comprobar el diseño y revisar errores comunes. | Pendiente | Pendiente |
-| **Total** | **60 min** | | | |
+| Lección | Responsable | Duración | Contenido y práctica | Video no listado | Editor precargado |
+| --- | --- | --- | --- | --- | --- |
+| 1. ¿Qué es una página web? | Matias Daniel Huaranga Romero | 8 min | Reconocer usos, elementos visibles, contenido y apariencia; presentar el proyecto sin enseñar código. | Pendiente | Pendiente |
+| 2. Primeros pasos con HTML | Winnie Lisbeth Merino Ordinola | 10 min | Explicar etiquetas, apertura y cierre, estructura HTML, títulos y párrafos; modificar una presentación sencilla. | Pendiente | Pendiente |
+| 3. Listas, imágenes y enlaces | Andre Sebastian Quispe Almonacid | 8 min | Continuar el ejemplo anterior con una lista, una imagen con texto alternativo y un enlace con destino claro. | Pendiente | Pendiente |
+| 4. Introducción a CSS | Alexis Calin Torres Huaman | 12 min | Explicar selector, propiedad y valor; practicar fondo, fuente, ancho, margen, espacio interior y borde. | Pendiente | Pendiente |
+| 5. Crear una página de perfil | Albino Florencio Cáceres Pizarro | 15 min | Integrar contenido y estilo; realizar una demostración guiada y personalizar el ejemplo, adaptándolo a la fanpage del repositorio. | Pendiente | Pendiente |
+| 6. Errores comunes y próximos pasos | Albino Florencio Cáceres Pizarro | 7 min | Corregir errores, revisar lectura, imágenes y enlaces, y proponer una mejora usando los conceptos aprendidos. | Pendiente | Pendiente |
+| **Total** | | **60 min** | | | |
+
+Cada integrante graba su lección completa; Albino graba las lecciones 5 y 6.
+La lección 1 se centra en lo que ve el visitante: HTML empieza en la lección
+2 y CSS en la 4.
+
+La guía original utiliza un perfil ficticio como ejemplo progresivo. El
+proyecto implementado en este repositorio es una fanpage de BTS que permite
+practicar esos mismos conceptos. Para mantener la continuidad del curso,
+las capturas, los textos de las diapositivas y la demostración deben usar
+el mismo ejemplo elegido desde el inicio.
+
+Los enlaces a los videos y a las prácticas precargadas siguen pendientes
+de publicación. La muestra de CodePen es una referencia del resultado.
 
 Para grabar cada lección:
 
@@ -128,6 +142,8 @@ Para grabar cada lección:
 - Explicar con lenguaje sencillo y avanzar desde los conceptos básicos.
 - Incluir narración, texto en pantalla y anotaciones que orienten la práctica.
 - Dejar pausas para que los estudiantes realicen los ejercicios.
+- Reemplazar los recuadros de las diapositivas por capturas reales y legibles.
+- Ajustar el nombre y el icono del editor al que se utiliza en la grabación.
 - Publicar los videos como **no listados** en YouTube.
 - Añadir en cada descripción el enlace al editor precargado de esa práctica.
 - Mantener el contenido y el código sin branding ni referencias a los autores.
@@ -143,18 +159,18 @@ los cambios, por ejemplo `feat(course): add starter materials` o
 | --- | --- |
 | Nombre del equipo | MartLabs |
 | NRC | 8130 |
-| Líder | Pendiente de confirmar. |
-| Responsabilidades | Pendiente de completar con los aportes reales. |
+| Líder | Albino Florencio Cáceres Pizarro (U201923820). |
+| Responsabilidades | Distribución de lecciones según la guía de exposición del equipo. |
 
 ### Integrantes
 
-| Código de estudiante | Estudiante |
-| --- | --- |
-| U201923820 | Cáceres Pizarro, Albino Florencio |
-| U202410746 | Huaranga Romero, Matias Daniel |
-| U20231B504 | Merino Ordinola, Winnie Lisbeth |
-| u201815005 | Quispe Almonacid, Andre Sebastian |
-| U20241G152 | Torres Huaman, Alexis Calin |
+| Código de estudiante | Estudiante | Responsabilidad asignada |
+| --- | --- | --- |
+| U201923820 | Cáceres Pizarro, Albino Florencio | Líder del equipo y responsable de las lecciones 5 y 6. |
+| U202410746 | Huaranga Romero, Matias Daniel | Responsable de la lección 1. |
+| U20231B504 | Merino Ordinola, Winnie Lisbeth | Responsable de la lección 2. |
+| u201815005 | Quispe Almonacid, Andre Sebastian | Responsable de la lección 3. |
+| U20241G152 | Torres Huaman, Alexis Calin | Responsable de la lección 4. |
 
 El reporte individual de participación se entrega por separado en Word y
 PDF, según las indicaciones del curso. Los commits deben reflejar aportes
@@ -170,7 +186,8 @@ reales de cada integrante.
 - [ ] Enlaces a las seis lecciones no listadas en YouTube.
 - [ ] Enlaces a editores precargados para cada lección.
 - [x] NRC, nombre del equipo y relación de integrantes.
-- [ ] Confirmación del líder, responsabilidades y resumen de aportes.
+- [x] Líder confirmado y lecciones asignadas según la guía de exposición.
+- [ ] Resumen de los aportes realizados por cada integrante.
 - [ ] Exportación del plan de curso a PDF para la entrega.
 - [ ] Reporte de participación en Word y PDF.
 - [ ] Revisión de la nomenclatura del repositorio antes de la entrega.
