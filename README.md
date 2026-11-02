@@ -139,12 +139,22 @@ organización Market-Labs. Se utiliza Conventional Commits para describir
 los cambios, por ejemplo `feat(course): add starter materials` o
 `docs(readme): describe online learning workflow`.
 
-| Dato del equipo | Estado |
+| Dato del equipo | Detalle |
 | --- | --- |
-| Nombre del equipo | Pendiente de confirmar. |
-| NRC | Pendiente de completar. |
-| Líder | Pendiente de completar. |
-| Integrantes y responsabilidades | Pendiente de completar con los aportes reales. |
+| Nombre del equipo | MartLabs |
+| NRC | 8130 |
+| Líder | Pendiente de confirmar. |
+| Responsabilidades | Pendiente de completar con los aportes reales. |
+
+### Integrantes
+
+| Código de estudiante | Estudiante |
+| --- | --- |
+| U201923820 | Cáceres Pizarro, Albino Florencio |
+| U202410746 | Huaranga Romero, Matias Daniel |
+| U20231B504 | Merino Ordinola, Winnie Lisbeth |
+| u201815005 | Quispe Almonacid, Andre Sebastian |
+| U20241G152 | Torres Huaman, Alexis Calin |
 
 El reporte individual de participación se entrega por separado en Word y
 PDF, según las indicaciones del curso. Los commits deben reflejar aportes
@@ -159,18 +169,19 @@ reales de cada integrante.
 - [ ] Guiones de grabación en `scripts`.
 - [ ] Enlaces a las seis lecciones no listadas en YouTube.
 - [ ] Enlaces a editores precargados para cada lección.
-- [ ] Datos del equipo y resumen de responsabilidades.
+- [x] NRC, nombre del equipo y relación de integrantes.
+- [ ] Confirmación del líder, responsabilidades y resumen de aportes.
 - [ ] Exportación del plan de curso a PDF para la entrega.
 - [ ] Reporte de participación en Word y PDF.
 - [ ] Revisión de la nomenclatura del repositorio antes de la entrega.
 
-El statement indica el nombre `webdev-course-[nombre del equipo]` para el
-repositorio. Este proyecto conserva el destino solicitado,
+El statement indica el nombre `webdev-course-[nombre del equipo]`, que
+para este equipo sería `webdev-course-MartLabs`. Este proyecto conserva el destino solicitado,
 `Market-Labs/social-responsability`; queda pendiente confirmar la
 nomenclatura con el docente o adecuarla antes de la entrega.
 
 El nombre indicado para el PDF del plan de curso es
-`upc-pre-202620-1asi0730-<NRC>-<startup>-course-plan.pdf`.
+`upc-pre-202620-1asi0730-8130-MartLabs-course-plan.pdf`.
 Este README centraliza el resumen, la secuencia de lecciones, el repositorio,
 las prácticas y la elaboración en equipo para completar ese plan.
 
