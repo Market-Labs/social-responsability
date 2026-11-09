@@ -32,24 +32,23 @@ darle estilo con CSS.
 
 1. Abre un editor gratuito en línea desde tu navegador.
 2. Crea los archivos «index.html» y «styles.css».
-3. Copia el contenido de [starter-files/index.html](starter-files/index.html)
-   y [starter-files/styles.css](starter-files/styles.css) en los archivos
-   correspondientes del editor.
+3. Copia el HTML y el CSS del recetario en los archivos correspondientes
+   del editor. [index.html](completed-examples/index.html) ·
+   [styles.css](completed-examples/styles.css)
 4. Comprueba que el enlace en el HTML apunte al archivo «styles.css».
 5. Usa la vista previa para observar cada cambio.
-6. Compara tu avance con el [recetario terminado](completed-examples).
+6. Practica cambiando el título, una descripción o un color y observa el resultado.
 
-Para probar el ejemplo terminado, abre [index.html](completed-examples/index.html)
-desde la carpeta «completed-examples». Las fotos están en «assets/images».
-Conserva esta estructura al importar el proyecto en un editor que admita
-archivos de imagen.
+Para probar el ejemplo en tu navegador, abre el archivo de la carpeta
+«completed-examples». Conserva «starter-files» junto a esa carpeta
+para que se carguen las fotos. [Abrir index.html](completed-examples/index.html)
 
-Si el editor solo acepta HTML y CSS, reemplaza el prefijo «assets/images/»
+Si el editor solo acepta HTML y CSS, reemplaza el prefijo «../starter-files/»
 de cada ruta de imagen por la dirección de la carpeta en GitHub y conserva
 el nombre del archivo.
 
 ~~~text
-https://raw.githubusercontent.com/Market-Labs/social-responsability/main/completed-examples/assets/images/
+https://raw.githubusercontent.com/Market-Labs/social-responsability/main/starter-files/
 ~~~
 
 El recetario funciona con HTML y CSS. Para el curso, realiza las
@@ -62,10 +61,10 @@ demostraciones en el editor en línea.
 3. **Preparación** con cantidades, listas de ingredientes, pasos numerados y consejos.
 4. **Pie de página** con enlaces de navegación y créditos de las fotografías.
 
-La versión inicial está en «starter-files» y el ejemplo completo en
-«completed-examples». La carpeta «scripts» está reservada para los guiones.
-El ejemplo completo utiliza enlaces internos y estilos que se ajustan al
-ancho de la pantalla.
+El recetario tiene un archivo HTML y una hoja CSS en «completed-examples».
+Los cuatro archivos JPG de «starter-files» son las fotos de la portada y
+de las tarjetas. La carpeta «scripts» está reservada para los guiones.
+El diseño se ajusta al ancho de la pantalla.
 
 ## Secuencia de lecciones según la guía de exposición
 
