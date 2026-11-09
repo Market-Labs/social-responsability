@@ -33,22 +33,21 @@ color, letra y espaciado.
 1. Abre un editor gratuito en línea desde tu navegador.
 2. Crea los archivos «index.html» y «styles.css».
 3. Copia el HTML y el CSS del recetario en los archivos correspondientes
-   del editor. [index.html](completed-examples/index.html) ·
-   [styles.css](completed-examples/styles.css)
+   del editor. [index.html](completed-examples/FinalProject/index.html) ·
+   [styles.css](completed-examples/FinalProject/styles.css)
 4. Comprueba que el enlace en el HTML apunte al archivo «styles.css».
 5. Usa la vista previa para observar cada cambio.
 6. Practica cambiando el título, una descripción o un color y observa el resultado.
 
-Para probar el ejemplo en tu navegador, abre el archivo de la carpeta
-«completed-examples». Conserva «starter-files» junto a esa carpeta
-para que se carguen las fotos. [Abrir index.html](completed-examples/index.html)
+Para probar el ejemplo en tu navegador, conserva las carpetas del repositorio
+y abre «index.html» desde «completed-examples/FinalProject». [Abrir index.html](completed-examples/FinalProject/index.html)
 
-Si el editor solo acepta HTML y CSS, reemplaza el prefijo «../starter-files/»
+Si el editor solo acepta HTML y CSS, reemplaza el prefijo «../../starter-files/FinalProject/»
 de cada ruta de imagen por la dirección de la carpeta en GitHub y conserva
 el nombre del archivo.
 
 ~~~text
-https://raw.githubusercontent.com/Market-Labs/social-responsability/main/starter-files/
+https://raw.githubusercontent.com/Market-Labs/social-responsability/main/starter-files/FinalProject/
 ~~~
 
 El recetario funciona con HTML y CSS. Para el curso, realiza las
@@ -61,7 +60,8 @@ demostraciones en el editor en línea.
 3. **Preparación** con pasos numerados para armar el ceviche.
 4. **Pie de página** con el nombre y el año del proyecto escolar.
 
-El ejemplo está en «completed-examples» y sus cinco fotos JPG en «starter-files».
+El HTML y el CSS del proyecto final están en «completed-examples/FinalProject».
+Las cinco fotos JPG están en «starter-files/FinalProject».
 La carpeta «scripts» está reservada para los guiones.
 
 La práctica escolar recomienda pescado bien cocido. Consulta las guías de
