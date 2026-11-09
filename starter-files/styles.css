@@ -1,8 +1,10 @@
-/* Estilos iniciales: completa el diseño durante las lecciones. */
+/* Estilos iniciales del recetario. Completa el diseño durante el curso. */
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #33231d;
+  background-color: #fffaf1;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
-/* Agrega aquí los colores, los espacios y los estilos de cada sección. */
+/* Usa selectores para cambiar colores, espacios y bordes. */

@@ -1,270 +1,326 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-PE">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Fanpage educativa de BTS y sus tres conciertos en Lima en 2026."
-  >
-  <title>BTS Perú | Fanpage no oficial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Recetario escolar de cocina peruana. Cuatro platos caseros explicados paso a paso.">
+  <title>Sazón Peruana | Recetario escolar</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!--
-    class conecta un elemento con sus estilos en el archivo CSS.
-    id identifica un elemento; href="#..." permite ir hasta ese elemento.
-    aria-label da un nombre para lectores de pantalla.
-    aria-labelledby usa el id de un titulo como nombre accesible.
-  -->
-  <!-- Menu principal: logo, enlaces y boton Mirar ahora -->
+  <a class="saltar-contenido" href="#contenido">Ir al contenido</a>
+
   <header class="encabezado">
-    <nav class="menu-principal contenedor" aria-label="Navegación principal">
-      <a class="enlace-logo" href="#inicio" aria-label="BTS, volver al inicio">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/BTS_text_logo.svg"
-          alt="Logotipo de BTS"
-        >
-      </a>
-
-      <ul class="enlaces-menu">
-        <li><a href="#integrantes">Integrantes</a></li>
-        <li><a href="#momentos">Momentos</a></li>
-      </ul>
-
-      <!--
-        target="_blank" abre el enlace en otra pestaña.
-        rel="noopener noreferrer" evita compartir acceso a esta pagina
-        y su direccion de origen con la pagina de destino.
-      -->
-      <a
-        class="boton-principal"
-        href="https://www.youtube.com/user/BANGTANTV"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Mirar ahora
-      </a>
-    </nav>
+    <div class="contenedor barra-navegacion">
+      <a class="marca" href="#inicio">Sazón <span>Peruana</span></a>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#recetas">Recetas</a>
+        <a href="#preparacion">Preparación</a>
+      </nav>
+      <a class="boton boton-menu" href="#recetas">Explorar recetas</a>
+    </div>
   </header>
 
-  <main>
-    <!-- Portada: presentacion de BTS y acceso a los integrantes -->
+  <main id="contenido">
+    <!-- Portada del recetario -->
     <section class="portada" id="inicio" aria-labelledby="titulo-portada">
-      <img
-        class="foto-portada"
-        src="https://f.rpp-noticias.io/2026/10/07/135113_1915998.jpg?quality=80&amp;width=1020"
-        alt="BTS actúa ante el público en el Estadio San Marcos de Lima"
-      >
-
-      <div class="capa-oscura-portada"></div>
-
       <div class="contenedor contenido-portada">
-        <p class="aviso-no-oficial">Fanpage no oficial</p>
-
-        <img
-          class="logo-portada"
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c7/BTS_text_logo.svg"
-          alt="Logotipo de BTS"
-        >
-
-        <h1 id="titulo-portada">BTS en Lima: tres conciertos para recordar</h1>
-        <p>
-          La espera terminó: BTS llegó a Perú y compartió tres noches de música
-          con ARMY en el Estadio San Marcos. Revive su paso por Lima y conoce
-          a los siete integrantes del grupo.
-        </p>
-
-        <a class="enlace-integrantes" href="#integrantes">Conoce a los integrantes</a>
+        <div>
+          <p class="etiqueta etiqueta-portada">Recetario peruano</p>
+          <h1 id="titulo-portada">¡Descubre el auténtico <span>sabor peruano!</span></h1>
+          <p class="eslogan">El sabor de nuestra tierra, en tus manos.</p>
+          <p class="bienvenida">¿Te gustaría preparar tus platos peruanos favoritos? Descubre cuatro recetas populares, conoce sus ingredientes y aprende a cocinarlas paso a paso. ¡No necesitas ser chef para empezar!</p>
+          <a class="boton" href="#recetas">Explorar recetas <span aria-hidden="true">→</span></a>
+        </div>
+        <figure class="mosaico-portada">
+          <div class="fotos-portada" aria-hidden="true">
+            <img src="assets/images/lomo-saltado.jpg"
+                 alt=""
+                 width="960" height="540">
+            <img src="assets/images/causa-limena.jpg"
+                 alt=""
+                 width="960" height="720">
+            <img src="assets/images/aji-de-gallina.jpg"
+                 alt=""
+                 width="960" height="720">
+            <img src="assets/images/arroz-chaufa.jpg"
+                 alt=""
+                 width="960" height="736">
+          </div>
+          <figcaption>Cuatro platos clásicos de la cocina peruana</figcaption>
+        </figure>
       </div>
     </section>
 
-    <!-- Integrantes: fotografia, nombre y descripcion de cada miembro -->
-    <section class="seccion" id="integrantes" aria-labelledby="titulo-integrantes">
+    <!-- Tarjetas con enlaces a las preparaciones -->
+    <section class="seccion seccion-recetas" id="recetas" aria-labelledby="titulo-recetas">
       <div class="contenedor">
-        <p class="nombre-seccion">Integrantes</p>
-        <h2 id="titulo-integrantes">Conoce a los siete integrantes</h2>
-        <p class="descripcion-seccion">
-          Cada uno aporta su propio estilo a la música y las presentaciones de BTS.
-        </p>
-
-        <!--
-          Cada li contiene un integrante.
-          loading="lazy" retrasa la carga de fotos que aun no se ven.
-        -->
-        <ul class="lista-integrantes">
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/rm.jpg"
-              alt="Retrato oficial en blanco y negro de RM"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>RM</strong>
-              <span>Líder y rapero; también participa en la composición del grupo.</span>
+        <p class="etiqueta">Para elegir</p>
+        <h2 id="titulo-recetas">Nuestros platos favoritos</h2>
+        <p class="introduccion">Cuatro sabores que forman parte de nuestra cocina. Elige el que más te guste y descubre cómo prepararlo en casa.</p>
+        <div class="cuadricula-recetas">
+          <article class="tarjeta-receta">
+            <img src="assets/images/lomo-saltado.jpg"
+                 alt="Lomo saltado con arroz blanco y papas fritas."
+                 width="960" height="540" loading="lazy">
+            <div class="contenido-tarjeta">
+              <h3>Lomo saltado</h3>
+              <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+                <li>35 min</li>
+                <li>Media</li>
+                <li>2 porciones</li>
+              </ul>
+              <p>Carne, cebolla y tomate salteados, con arroz y papas fritas.</p>
+              <a class="enlace-receta" href="#lomo-saltado" aria-label="Ver preparación de Lomo saltado">Ver preparación <span aria-hidden="true">→</span></a>
             </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/jin.jpg"
-              alt="Retrato oficial en blanco y negro de Jin"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>Jin</strong>
-              <span>Vocalista y el integrante mayor de BTS.</span>
-            </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/suga.jpg"
-              alt="Retrato oficial en blanco y negro de SUGA"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>SUGA</strong>
-              <span>Rapero, compositor y productor musical.</span>
-            </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/j-hope.jpg"
-              alt="Retrato oficial en blanco y negro de j-hope"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>j-hope</strong>
-              <span>Rapero y bailarín, conocido por su energía en el escenario.</span>
-            </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/jimin.jpg"
-              alt="Retrato oficial en blanco y negro de Jimin"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>Jimin</strong>
-              <span>Vocalista y bailarín destacado por su expresividad.</span>
-            </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/v.jpg"
-              alt="Retrato oficial en blanco y negro de V"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>V</strong>
-              <span>Vocalista reconocido por su voz grave.</span>
-            </div>
-          </li>
-          <li>
-            <img
-              src="https://bighitsmusic.com/assets/images/bts/members/jungkook.jpg"
-              alt="Retrato oficial en blanco y negro de Jung Kook"
-              loading="lazy"
-            >
-            <div class="informacion-integrante">
-              <strong>Jung Kook</strong>
-              <span>Vocalista y el integrante más joven del grupo.</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Momentos: vistas previas enlazadas a los tres videos -->
-    <section
-      class="seccion seccion-oscura"
-      id="momentos"
-      aria-labelledby="titulo-momentos"
-    >
-      <div class="contenedor">
-        <p class="nombre-seccion">Momentos en Perú</p>
-        <h2 id="titulo-momentos">BTS en Lima, fecha por fecha</h2>
-        <p class="descripcion-seccion">
-          Explora un video de cada concierto en el Estadio San Marcos y revive
-          la emoción del público peruano.
-        </p>
-
-        <!--
-          Cada tarjeta enlaza un video.
-          datetime guarda la fecha en formato año-mes-dia.
-        -->
-        <div class="lista-momentos">
-          <article class="tarjeta-momento">
-            <a
-              class="enlace-video"
-              href="https://www.youtube.com/watch?v=vRbizbNFhyU"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Abrir el video de la primera fecha en YouTube"
-            >
-              <img
-                src="https://i.ytimg.com/vi/vRbizbNFhyU/hqdefault.jpg"
-                alt="Vista previa del video de la primera fecha"
-                loading="lazy"
-              >
-            </a>
-            <h3>Primera fecha</h3>
-            <time datetime="2026-10-07">07/10/2026</time>
           </article>
-
-          <article class="tarjeta-momento">
-            <a
-              class="enlace-video"
-              href="https://www.youtube.com/watch?v=yjgpKqg5rXA"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Abrir el video de la segunda fecha en YouTube"
-            >
-              <img
-                src="https://i.ytimg.com/vi/yjgpKqg5rXA/hqdefault.jpg"
-                alt="Vista previa del video de la segunda fecha"
-                loading="lazy"
-              >
-            </a>
-            <h3>Segunda fecha</h3>
-            <time datetime="2026-10-09">09/10/2026</time>
+          <article class="tarjeta-receta">
+            <img src="assets/images/causa-limena.jpg"
+                 alt="Causa limeña decorada con palta, huevo y aceitunas."
+                 width="960" height="720" loading="lazy">
+            <div class="contenido-tarjeta">
+              <h3>Causa limeña</h3>
+              <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+                <li>40 min + enfriado</li>
+                <li>Fácil</li>
+                <li>4 porciones</li>
+              </ul>
+              <p>Capas de papa amarilla al limón, rellenas de pollo y palta.</p>
+              <a class="enlace-receta" href="#causa-limena" aria-label="Ver preparación de Causa limeña">Ver preparación <span aria-hidden="true">→</span></a>
+            </div>
           </article>
-
-          <article class="tarjeta-momento">
-            <a
-              class="enlace-video"
-              href="https://www.youtube.com/watch?v=68M0HwVK_0o"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Abrir el video de la tercera fecha en YouTube"
-            >
-              <img
-                src="https://i.ytimg.com/vi/68M0HwVK_0o/hqdefault.jpg"
-                alt="Vista previa del video de la tercera fecha"
-                loading="lazy"
-              >
-            </a>
-            <h3>Tercera fecha</h3>
-            <time datetime="2026-10-10">10/10/2026</time>
+          <article class="tarjeta-receta">
+            <img src="assets/images/aji-de-gallina.jpg"
+                 alt="Ají de gallina con arroz y huevo cocido."
+                 width="960" height="720" loading="lazy">
+            <div class="contenido-tarjeta">
+              <h3>Ají de gallina</h3>
+              <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+                <li>50 min</li>
+                <li>Media</li>
+                <li>4 porciones</li>
+              </ul>
+              <p>Pollo deshilachado en salsa cremosa de ají amarillo, con arroz y papa.</p>
+              <a class="enlace-receta" href="#aji-de-gallina" aria-label="Ver preparación de Ají de gallina">Ver preparación <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="tarjeta-receta">
+            <img src="assets/images/arroz-chaufa.jpg"
+                 alt="Arroz chaufa con cebolla china servido en un plato blanco."
+                 width="960" height="736" loading="lazy">
+            <div class="contenido-tarjeta">
+              <h3>Arroz chaufa</h3>
+              <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+                <li>25 min</li>
+                <li>Fácil</li>
+                <li>3 porciones</li>
+              </ul>
+              <p>Arroz salteado con pollo, huevo, cebolla china y sillao.</p>
+              <a class="enlace-receta" href="#arroz-chaufa" aria-label="Ver preparación de Arroz chaufa">Ver preparación <span aria-hidden="true">→</span></a>
+            </div>
           </article>
         </div>
       </div>
     </section>
+
+    <!-- Ingredientes y pasos de cada plato -->
+    <section class="seccion seccion-preparacion" id="preparacion" aria-labelledby="titulo-preparacion">
+      <div class="contenedor">
+        <p class="etiqueta">Paso a paso</p>
+        <h2 id="titulo-preparacion">¡Manos a la cocina!</h2>
+        <p class="introduccion">Revisa los ingredientes, sigue los pasos con calma y disfruta el proceso. Las cantidades y los tiempos son orientativos.</p>
+        <aside class="aviso-cocina" aria-labelledby="titulo-aviso">
+          <h3 id="titulo-aviso">Antes de empezar</h3>
+          <p>Si vas a usar fuego, cuchillos o aceite caliente, solicita la supervisión de una persona adulta. Lávate las manos, usa utensilios limpios, cocina bien el pollo y conserva refrigerados los ingredientes perecibles.</p>
+        </aside>
+        <article class="preparacion-receta" id="lomo-saltado" aria-labelledby="titulo-lomo-saltado">
+          <header class="cabecera-receta">
+            <p class="etiqueta">Receta 01</p>
+            <h3 id="titulo-lomo-saltado">Lomo saltado</h3>
+            <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+              <li>35 min</li>
+              <li>Media</li>
+              <li>2 porciones</li>
+            </ul>
+          </header>
+          <div class="detalle-receta">
+            <div class="ingredientes">
+              <h4>Ingredientes</h4>
+              <ul>
+                <li>300 g de carne de res para saltear, cortada en tiras.</li>
+                <li>1 cebolla roja mediana, cortada en gajos.</li>
+                <li>2 tomates medianos, cortados en gajos.</li>
+                <li>2 papas medianas, cortadas en bastones.</li>
+                <li>2 cucharadas de sillao (salsa de soya).</li>
+                <li>1 cucharada de vinagre tinto o blanco.</li>
+                <li>2 porciones de arroz blanco cocido.</li>
+                <li>Aceite vegetal, sal y pimienta al gusto.</li>
+                <li>Cilantro picado (opcional).</li>
+              </ul>
+            </div>
+            <div class="pasos">
+              <h4>Preparación paso a paso</h4>
+              <ol>
+                <li><strong>Prepara todo.</strong> Lava los vegetales. Corta la carne, la cebolla, los tomates y las papas por separado.</li>
+                <li><strong>Cocina las papas.</strong> Fríelas hasta que queden doradas. Retíralas y déjalas sobre papel absorbente. Una persona adulta debe supervisar el aceite caliente.</li>
+                <li><strong>Saltea la carne.</strong> Calienta una sartén amplia con un poco de aceite. Agrega la carne en pequeñas tandas y cocínala bien.</li>
+                <li><strong>Añade los vegetales.</strong> Incorpora la cebolla y el tomate. Saltea brevemente para que conserven su textura.</li>
+                <li><strong>Da sabor.</strong> Agrega el sillao, el vinagre y una pizca de pimienta. Mezcla y prueba antes de añadir más sal.</li>
+                <li><strong>Sirve.</strong> Acompaña el salteado con las papas y el arroz blanco. Añade cilantro si deseas.</li>
+              </ol>
+            </div>
+          </div>
+          <p class="consejo"><strong>Consejo de cocina.</strong> Ten todos los ingredientes listos antes de calentar la sartén. Este plato se cocina rápidamente.</p>
+          <a class="enlace-receta" href="#recetas">Volver a recetas <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="preparacion-receta" id="causa-limena" aria-labelledby="titulo-causa-limena">
+          <header class="cabecera-receta">
+            <p class="etiqueta">Receta 02</p>
+            <h3 id="titulo-causa-limena">Causa limeña</h3>
+            <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+              <li>40 min + enfriado</li>
+              <li>Fácil</li>
+              <li>4 porciones</li>
+            </ul>
+          </header>
+          <div class="detalle-receta">
+            <div class="ingredientes">
+              <h4>Ingredientes</h4>
+              <ul>
+                <li>800 g de papa amarilla.</li>
+                <li>250 g de pechuga de pollo cocida y deshilachada.</li>
+                <li>1 palta madura, cortada en láminas.</li>
+                <li>3 cucharadas de mayonesa comercial.</li>
+                <li>2 cucharadas de pasta de ají amarillo (ajustar al gusto).</li>
+                <li>Jugo de 2 limones pequeños, aproximadamente.</li>
+                <li>2 cucharadas de aceite vegetal.</li>
+                <li>Sal al gusto.</li>
+                <li>1 huevo duro para decorar (opcional).</li>
+              </ul>
+            </div>
+            <div class="pasos">
+              <h4>Preparación paso a paso</h4>
+              <ol>
+                <li><strong>Cocina las papas.</strong> Hiérvelas hasta que estén suaves. Pélalas con cuidado y prénsalas mientras aún están tibias.</li>
+                <li><strong>Sazona la masa.</strong> Añade el ají amarillo, el jugo de limón, el aceite y la sal. Mezcla hasta obtener una masa uniforme. Deja enfriar.</li>
+                <li><strong>Prepara el relleno.</strong> Combina el pollo bien cocido y deshilachado con la mayonesa.</li>
+                <li><strong>Arma la primera capa.</strong> Coloca una porción de papa en un molde limpio y presiona suavemente.</li>
+                <li><strong>Agrega el relleno.</strong> Pon el pollo y las láminas de palta. Cubre con otra capa de papa.</li>
+                <li><strong>Decora y sirve.</strong> Retira el molde con cuidado y decora con huevo duro, si deseas. Mantén refrigerado hasta servir.</li>
+              </ol>
+            </div>
+          </div>
+          <p class="consejo"><strong>Consejo de cocina.</strong> Utiliza un molde pequeño o un recipiente para que las capas se mantengan ordenadas. Conserva el relleno refrigerado.</p>
+          <a class="enlace-receta" href="#recetas">Volver a recetas <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="preparacion-receta" id="aji-de-gallina" aria-labelledby="titulo-aji-de-gallina">
+          <header class="cabecera-receta">
+            <p class="etiqueta">Receta 03</p>
+            <h3 id="titulo-aji-de-gallina">Ají de gallina</h3>
+            <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+              <li>50 min</li>
+              <li>Media</li>
+              <li>4 porciones</li>
+            </ul>
+          </header>
+          <div class="detalle-receta">
+            <div class="ingredientes">
+              <h4>Ingredientes</h4>
+              <ul>
+                <li>500 g de pechuga de pollo.</li>
+                <li>1 cebolla roja mediana, picada finamente.</li>
+                <li>3 cucharadas de pasta de ají amarillo.</li>
+                <li>3 rebanadas de pan de molde sin corteza.</li>
+                <li>1 taza de leche evaporada.</li>
+                <li>1 taza de caldo de cocción del pollo, aproximadamente.</li>
+                <li>2 cucharadas de aceite vegetal.</li>
+                <li>4 porciones de arroz blanco cocido.</li>
+                <li>2 papas cocidas, en rodajas.</li>
+                <li>2 huevos duros, cortados por la mitad (opcional).</li>
+                <li>Sal y pimienta al gusto.</li>
+              </ul>
+            </div>
+            <div class="pasos">
+              <h4>Preparación paso a paso</h4>
+              <ol>
+                <li><strong>Cocina el pollo.</strong> Hiérvelo en agua hasta que esté completamente cocido. Reserva parte del caldo y deshilacha la carne.</li>
+                <li><strong>Remoja el pan.</strong> Colócalo en un recipiente con la leche evaporada y tritúralo hasta formar una mezcla suave.</li>
+                <li><strong>Haz el aderezo.</strong> Sofríe la cebolla en una olla con aceite. Añade la pasta de ají amarillo y cocina unos minutos, removiendo.</li>
+                <li><strong>Incorpora la crema.</strong> Añade el pan remojado y un poco de caldo, mezclando hasta obtener una salsa homogénea.</li>
+                <li><strong>Agrega el pollo.</strong> Incorpora el pollo deshilachado y cocina a fuego bajo hasta que la salsa espese. Ajusta la textura con más caldo si es necesario y sazona.</li>
+                <li><strong>Sirve.</strong> Coloca una base de papa cocida, añade el ají de gallina y acompaña con arroz blanco. Decora con huevo duro si deseas.</li>
+              </ol>
+            </div>
+          </div>
+          <p class="consejo"><strong>Consejo de cocina.</strong> Remueve la salsa con frecuencia para evitar que se pegue al fondo de la olla.</p>
+          <a class="enlace-receta" href="#recetas">Volver a recetas <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="preparacion-receta" id="arroz-chaufa" aria-labelledby="titulo-arroz-chaufa">
+          <header class="cabecera-receta">
+            <p class="etiqueta">Receta 04</p>
+            <h3 id="titulo-arroz-chaufa">Arroz chaufa</h3>
+            <ul class="datos-receta" aria-label="Tiempo, dificultad y porciones">
+              <li>25 min</li>
+              <li>Fácil</li>
+              <li>3 porciones</li>
+            </ul>
+          </header>
+          <div class="detalle-receta">
+            <div class="ingredientes">
+              <h4>Ingredientes</h4>
+              <ul>
+                <li>3 tazas de arroz blanco cocido, refrigerado y frío.</li>
+                <li>250 g de pollo cortado en cubos pequeños.</li>
+                <li>2 huevos.</li>
+                <li>3 tallos de cebolla china, picados.</li>
+                <li>3 cucharadas de sillao (salsa de soya).</li>
+                <li>2 cucharadas de aceite vegetal.</li>
+                <li>1 cucharadita de aceite de ajonjolí (opcional).</li>
+                <li>Pimienta al gusto.</li>
+              </ul>
+            </div>
+            <div class="pasos">
+              <h4>Preparación paso a paso</h4>
+              <ol>
+                <li><strong>Organiza los ingredientes.</strong> Ten el arroz frío, el pollo cortado, los huevos y la cebolla china listos para usar.</li>
+                <li><strong>Cocina el pollo.</strong> Calienta un poco de aceite en una sartén y cocina los cubos de pollo por completo. Resérvalos.</li>
+                <li><strong>Prepara el huevo.</strong> Bate los huevos, cocínalos como tortilla fina o revueltos y córtalos en trozos.</li>
+                <li><strong>Saltea el arroz.</strong> Coloca el arroz frío en la sartén caliente y remueve para separar los granos.</li>
+                <li><strong>Mezcla.</strong> Añade el pollo, el huevo y el sillao. Remueve hasta que todo esté uniformemente caliente.</li>
+                <li><strong>Termina el plato.</strong> Incorpora la cebolla china y, si deseas, unas gotas de aceite de ajonjolí. Sirve inmediatamente.</li>
+              </ol>
+            </div>
+          </div>
+          <p class="consejo"><strong>Consejo de cocina.</strong> El arroz debe haberse refrigerado pronto después de cocinarlo y conservarse frío hasta su uso. No utilices arroz que haya quedado durante horas a temperatura ambiente.</p>
+          <a class="enlace-receta" href="#recetas">Volver a recetas <span aria-hidden="true">↑</span></a>
+        </article>
+      </div>
+    </section>
   </main>
 
-  <!-- Pie de pagina: aviso educativo y enlace al sitio oficial -->
-  <footer class="pie-pagina">
-    <div class="contenedor contenido-pie-pagina">
-      <p>
-        Fanpage educativa no oficial. Sin afiliación con BTS, BIGHIT MUSIC
-        ni HYBE.
-      </p>
-      <a
-        href="https://bighitsmusic.com/bts/profile"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Sitio oficial de BTS
-      </a>
+  <footer class="pie-pagina" id="contacto">
+    <div class="contenedor contenido-pie">
+      <div>
+        <a class="marca" href="#inicio">Sazón <span>Peruana</span></a>
+        <p class="eslogan">El sabor de nuestra tierra, en tus manos.</p>
+        <p>Proyecto escolar. Las recetas son versiones caseras orientativas que pueden variar entre familias y regiones.</p>
+        <nav class="menu menu-pie" aria-label="Navegación al pie de página">
+          <a href="#inicio">Inicio</a>
+          <a href="#recetas">Recetas</a>
+          <a href="#preparacion">Preparación</a>
+        </nav>
+      </div>
+      <div id="creditos" class="creditos">
+        <h2>Créditos de fotografías</h2>
+          <ul>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Lomo_saltado_2026.jpg">Lomo saltado</a> de TinyWinii, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Causa_rellena_de_pollo.jpg">Causa limeña</a> de KaMpErƎ &amp; Le-tticia, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.</li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Aji_de_Gallina.jpg">Ají de gallina</a> de ajax15, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.</li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Arroz_chaufa_simple.JPG">Arroz chaufa</a> de Dtarazona, dominio público.</li>
+          </ul>
+        <p>Fotografías de Wikimedia Commons en tamaño reducido y con recorte visual para el diseño.</p>
+      </div>
     </div>
   </footer>
 </body>
