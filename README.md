@@ -59,7 +59,7 @@ demostraciones en el editor en línea.
 1. **Portada** con un menú superior, un degradado cálido y una foto de ceviche peruano.
 2. **Ingredientes** con fotos y cantidades de pescado, cebolla, condimentos y limón.
 3. **Preparación** con pasos numerados para armar el ceviche.
-4. **Pie de página** con el nombre del proyecto y un enlace a los créditos.
+4. **Pie de página** con el nombre y el año del proyecto escolar.
 
 El ejemplo está en «completed-examples» y sus cinco fotos JPG en «starter-files».
 La carpeta «scripts» está reservada para los guiones.

@@ -11,14 +11,8 @@ body {
 
 h1,
 h2,
-h3,
-a {
-  color: #8e2b21;
-}
-
-h1,
-h2,
 h3 {
+  color: #8e2b21;
   font-family: Georgia, serif;
 }
 
