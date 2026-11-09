@@ -1,7 +1,7 @@
-/* Colores, tipo de letra y ancho de la página */
+/* Colores, letra y ancho de la página */
 body {
-  max-width: 720px;
-  margin: 24px auto;
+  max-width: 760px;
+  margin: 32px auto;
   padding: 0 20px;
   background-color: #fffaf2;
   color: #292524;
@@ -16,23 +16,67 @@ a {
   color: #8e2b21;
 }
 
-/* Espacio entre los enlaces */
-nav a {
-  margin-right: 12px;
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
 }
 
-/* Las fotos se ajustan al ancho de la pantalla */
+/* Portada y enlaces */
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 8px 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.etiqueta {
+  color: #8e2b21;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  margin: 4px 8px;
+}
+
+/* Fotos */
 img {
   display: block;
   width: 100%;
   max-width: 480px;
   height: auto;
+  border-radius: 12px;
 }
 
-/* Una línea separa cada receta y el pie de página */
+header img {
+  max-width: 100%;
+  margin: 20px 0;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Separación de las recetas y los créditos */
 article,
 footer {
   margin-top: 24px;
   padding-top: 12px;
   border-top: 1px solid #d8cec1;
+}
+
+/* Un fondo suave distingue el ejercicio */
+#tu-turno {
+  margin-top: 32px;
+  padding: 12px 20px;
+  background-color: #f7ead6;
+  border-left: 4px solid #8e2b21;
+}
+
+#tu-turno h2 {
+  margin-top: 0;
 }

@@ -56,14 +56,14 @@ demostraciones en el editor en línea.
 
 ## Proyecto de práctica
 
-1. **Presentación** con el nombre del recetario y enlaces de texto.
+1. **Portada** con el nombre del recetario, una foto y enlaces de texto.
 2. **Recetas** de lomo saltado y causa limeña con fotos, ingredientes y pasos.
 3. **Ahora te toca a ti** con dos opciones para practicar: ají de gallina y arroz chaufa.
 4. **Pie de página** con los créditos de las fotos del ejemplo.
 
 El recetario tiene un archivo HTML y una hoja CSS en «completed-examples».
-«starter-files» contiene cuatro fotos JPG. Dos aparecen en el recetario y
-las de ají de gallina y arroz chaufa quedan como recursos para la práctica.
+«starter-files» contiene cinco fotos JPG. Tres aparecen en la portada y las
+dos recetas. Las de ají de gallina y arroz chaufa quedan para la práctica.
 La carpeta «scripts» está reservada para los guiones.
 
 ## Secuencia de lecciones según la guía de exposición
@@ -90,6 +90,7 @@ de las fotos de práctica a tu recetario.
 
 | Plato | Autor | Obra | Licencia |
 | --- | --- | --- | --- |
+| Portada | Kat Walsh | [La Mar ceviche and causas.jpg](https://commons.wikimedia.org/wiki/File:La_Mar_ceviche_and_causas.jpg) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Lomo saltado | TinyWinii | [Lomo saltado 2026.jpg](https://commons.wikimedia.org/wiki/File:Lomo_saltado_2026.jpg) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Causa limeña | KaMpErƎ & Le-tticia | [Causa rellena de pollo.jpg](https://commons.wikimedia.org/wiki/File:Causa_rellena_de_pollo.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | Ají de gallina | ajax15 | [Aji de Gallina.jpg](https://commons.wikimedia.org/wiki/File:Aji_de_Gallina.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
