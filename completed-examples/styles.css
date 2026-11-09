@@ -22,8 +22,27 @@ h3 {
   font-family: Georgia, serif;
 }
 
-/* Portada y enlaces */
+/* Menú principal */
+nav {
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: #8e2b21;
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 4px 8px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Portada con un degradado cálido */
 header {
+  padding: 20px;
+  background: linear-gradient(135deg, #f6dec3, #fff6e8);
+  border-radius: 14px;
   text-align: center;
 }
 
@@ -40,11 +59,6 @@ header h1 {
   text-transform: uppercase;
 }
 
-nav a {
-  display: inline-block;
-  margin: 4px 8px;
-}
-
 /* Fotos */
 img {
   display: block;
@@ -54,7 +68,7 @@ img {
 }
 
 header img {
-  margin: 20px 0;
+  margin: 20px 0 0;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
@@ -82,12 +96,6 @@ header img {
 }
 
 /* Preparación y pie de página */
-.aviso {
-  padding: 12px 16px;
-  background-color: #f7ead6;
-  border-left: 4px solid #8e2b21;
-}
-
 ol li {
   margin-bottom: 8px;
 }
