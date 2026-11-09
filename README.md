@@ -3,9 +3,9 @@
 ## Resumen del curso
 
 Curso introductorio para estudiantes de secundaria sin experiencia en programación.
-La práctica consiste en crear **Sazón Peruana**, un recetario escolar con cuatro
-platos peruanos. El ejemplo permite aprender a presentar contenido con HTML y
-darle estilo con CSS.
+La práctica consiste en crear **Sazón Peruana**, un recetario escolar con dos
+recetas completas y un ejercicio para agregar otra. El ejemplo utiliza
+etiquetas HTML y estilos básicos de color, letra y espaciado.
 
 [Código fuente en GitHub](https://github.com/Market-Labs/social-responsability)
 
@@ -17,7 +17,7 @@ darle estilo con CSS.
 | Modalidad | Seis lecciones con demostraciones y pausas para practicar. |
 | Lenguajes | HTML5 y CSS3. |
 | Herramientas | Navegador, editor gratuito en línea, GitHub y YouTube. |
-| Resultado | Recetario con portada, tarjetas, ingredientes y pasos de preparación. |
+| Resultado | Recetario con dos recetas completas y una práctica guiada. |
 
 ## Qué aprenderás
 
@@ -56,15 +56,15 @@ demostraciones en el editor en línea.
 
 ## Proyecto de práctica
 
-1. **Portada** con el nombre del recetario y el enlace «Explorar recetas».
-2. **Recetas** con tarjetas de lomo saltado, causa limeña, ají de gallina y arroz chaufa.
-3. **Preparación** con cantidades, listas de ingredientes, pasos numerados y consejos.
-4. **Pie de página** con enlaces de navegación y créditos de las fotografías.
+1. **Presentación** con el nombre del recetario y enlaces de texto.
+2. **Recetas** de lomo saltado y causa limeña con fotos, ingredientes y pasos.
+3. **Ahora te toca a ti** con dos opciones para practicar: ají de gallina y arroz chaufa.
+4. **Pie de página** con los créditos de las fotos del ejemplo.
 
 El recetario tiene un archivo HTML y una hoja CSS en «completed-examples».
-Los cuatro archivos JPG de «starter-files» son las fotos de la portada y
-de las tarjetas. La carpeta «scripts» está reservada para los guiones.
-El diseño se ajusta al ancho de la pantalla.
+«starter-files» contiene cuatro fotos JPG. Dos aparecen en el recetario y
+las de ají de gallina y arroz chaufa quedan como recursos para la práctica.
+La carpeta «scripts» está reservada para los guiones.
 
 ## Secuencia de lecciones según la guía de exposición
 
@@ -84,9 +84,9 @@ Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
 
 ## Créditos de las fotografías
 
-Las fotos se usan en el mosaico de la portada y en las tarjetas. Se
-incluyen versiones reducidas de Wikimedia Commons y el CSS ajusta el
-encuadre al tamaño de cada espacio.
+Estas fotos de Wikimedia Commons están disponibles para el ejemplo y
+para el ejercicio. Conserva el crédito correspondiente si agregas una
+de las fotos de práctica a tu recetario.
 
 | Plato | Autor | Obra | Licencia |
 | --- | --- | --- | --- |
