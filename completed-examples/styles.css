@@ -49,34 +49,51 @@ nav a {
 img {
   display: block;
   width: 100%;
-  max-width: 480px;
   height: auto;
   border-radius: 12px;
 }
 
 header img {
-  max-width: 100%;
   margin: 20px 0;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
-/* Separación de las recetas y los créditos */
-article,
-footer {
-  margin-top: 24px;
-  padding-top: 12px;
-  border-top: 1px solid #d8cec1;
+/* Fichas de ingredientes en dos columnas */
+.ingredientes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style: none;
 }
 
-/* Un fondo suave distingue el ejercicio */
-#tu-turno {
-  margin-top: 32px;
-  padding: 12px 20px;
+.ingredientes img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.ingredientes h3 {
+  margin: 8px 0 0;
+}
+
+.ingredientes p {
+  margin: 0;
+}
+
+/* Preparación y pie de página */
+.aviso {
+  padding: 12px 16px;
   background-color: #f7ead6;
   border-left: 4px solid #8e2b21;
 }
 
-#tu-turno h2 {
-  margin-top: 0;
+ol li {
+  margin-bottom: 8px;
+}
+
+footer {
+  margin-top: 28px;
+  padding-top: 12px;
+  border-top: 1px solid #d8cec1;
 }

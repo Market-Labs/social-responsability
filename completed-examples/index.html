@@ -3,113 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sazón Peruana | Recetario escolar</title>
+  <title>Ceviche peruano | Sazón Peruana</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <p class="etiqueta">Recetario peruano</p>
-    <h1>Sazón Peruana</h1>
-    <p>Aprende a preparar dos platos peruanos y agrega tu propia receta.</p>
-    <img src="../starter-files/portada.jpg"
-         alt="Mesa con una selección de ceviches y causas limeñas">
+    <p class="etiqueta">Sazón Peruana</p>
+    <h1>Ceviche peruano</h1>
+    <p>¡El sabor fresco que representa al Perú!</p>
+    <img src="../starter-files/ceviche-portada.jpg"
+         alt="Plato de ceviche peruano de pescado con cebolla roja">
 
-    <nav aria-label="Contenido del recetario">
-      <a href="#lomo-saltado">Lomo saltado</a>
-      <a href="#causa-limena">Causa limeña</a>
-      <a href="#tu-turno">Ahora te toca a ti</a>
+    <nav aria-label="Contenido de la receta">
+      <a href="#ingredientes">Ingredientes</a>
+      <a href="#preparacion">Preparación</a>
     </nav>
   </header>
 
   <main>
-    <h2>Recetas</h2>
-    <p>
-      Pide ayuda a una persona adulta si vas a usar cuchillos,
-      fuego o aceite caliente.
-    </p>
+    <section id="ingredientes">
+      <h2>¿Qué necesitamos?</h2>
+      <p>Cantidades aproximadas para 4 porciones.</p>
 
-    <article id="lomo-saltado">
-      <h3>Lomo saltado</h3>
-      <p>35 minutos · 2 porciones</p>
-      <img src="../starter-files/lomo-saltado.jpg"
-           alt="Lomo saltado con arroz blanco y papas fritas">
-
-      <h4>Ingredientes</h4>
-      <ul>
-        <li>300 g de carne de res en tiras.</li>
-        <li>1 cebolla roja y 2 tomates en gajos.</li>
-        <li>2 papas cortadas en bastones.</li>
-        <li>2 cucharadas de sillao y 1 cucharada de vinagre.</li>
-        <li>2 porciones de arroz blanco cocido.</li>
-        <li>Aceite, sal y pimienta al gusto.</li>
+      <ul class="ingredientes">
+        <li>
+          <img src="../starter-files/pescado.jpg"
+               alt="Dos filetes de pescado blanco sobre una tabla">
+          <h3>Pescado</h3>
+          <p>600 g de pescado blanco.</p>
+        </li>
+        <li>
+          <img src="../starter-files/cebolla.jpg"
+               alt="Cebolla roja cortada en láminas">
+          <h3>Cebolla</h3>
+          <p>1 cebolla roja grande.</p>
+        </li>
+        <li>
+          <img src="../starter-files/condimentos.jpg"
+               alt="Manojos de culantro fresco">
+          <h3>Condimentos</h3>
+          <p>Sal al gusto, 1 ají limo y culantro picado opcional.</p>
+        </li>
+        <li>
+          <img src="../starter-files/limon.jpg"
+               alt="Limones verdes cortados">
+          <h3>Limón</h3>
+          <p>De 10 a 12 limones peruanos, según su tamaño.</p>
+        </li>
       </ul>
+    </section>
 
-      <h4>Preparación</h4>
-      <ol>
-        <li>Lava los vegetales y prepara los ingredientes.</li>
-        <li>Fríe las papas hasta que estén doradas y resérvalas.</li>
-        <li>Saltea la carne hasta que esté bien cocida. Agrega la cebolla y el tomate.</li>
-        <li>Añade el sillao y el vinagre. Sazona y sirve con las papas y el arroz.</li>
-      </ol>
-    </article>
-
-    <article id="causa-limena">
-      <h3>Causa limeña</h3>
-      <p>40 minutos más el enfriado · 4 porciones</p>
-      <img src="../starter-files/causa-limena.jpg"
-           alt="Causa limeña decorada con palta, huevo y aceitunas">
-
-      <h4>Ingredientes</h4>
-      <ul>
-        <li>800 g de papa amarilla.</li>
-        <li>250 g de pollo cocido y deshilachado.</li>
-        <li>1 palta en láminas.</li>
-        <li>3 cucharadas de mayonesa.</li>
-        <li>2 cucharadas de pasta de ají amarillo.</li>
-        <li>Jugo de 2 limones, 2 cucharadas de aceite y sal al gusto.</li>
-      </ul>
-
-      <h4>Preparación</h4>
-      <ol>
-        <li>Hierve las papas, pélalas y prénsalas mientras estén tibias.</li>
-        <li>Mezcla la papa con el ají, el limón, el aceite y la sal. Deja enfriar.</li>
-        <li>Combina el pollo cocido con la mayonesa.</li>
-        <li>Arma una capa de papa, agrega el pollo y la palta, y cubre con más papa.</li>
-        <li>Mantén la causa refrigerada hasta servir.</li>
-      </ol>
-    </article>
-
-    <section id="tu-turno">
-      <h2>Ahora te toca a ti</h2>
-      <p>Elige uno de estos platos para agregarlo al recetario.</p>
-      <ul>
-        <li>Ají de gallina</li>
-        <li>Arroz chaufa</li>
-      </ul>
-      <p>
-        Escribe el nombre, agrega la foto de la carpeta starter-files
-        y crea una lista de ingredientes y otra con los pasos.
+    <section id="preparacion">
+      <h2>Preparación</h2>
+      <p class="aviso">
+        <strong>Antes de empezar.</strong> Pide ayuda a una persona adulta y
+        usa pescado bien cocido para la práctica escolar. El limón no vuelve
+        seguro el pescado crudo.
       </p>
+      <ol>
+        <li>Lávate las manos. Lava la cebolla, el ají y el culantro.</li>
+        <li>Corta la cebolla en tiras finas y pica el ají y el culantro.</li>
+        <li>Exprime los limones y retira las semillas.</li>
+        <li>
+          Corta el pescado en cubos con utensilios limpios. Para la versión
+          tradicional, usa pescado tratado para consumo crudo por un proveedor
+          confiable y mantenlo refrigerado hasta usarlo.
+        </li>
+        <li>Mezcla el pescado con la sal, el ají y el jugo de limón.</li>
+        <li>
+          Agrega la cebolla y, si deseas, el culantro. Sirve de inmediato.
+          Acompaña con camote, choclo y canchita.
+        </li>
+      </ol>
     </section>
   </main>
 
   <footer>
-    <h2>Créditos de las fotos</h2>
-    <ul>
-      <li>
-        <a href="https://commons.wikimedia.org/wiki/File:La_Mar_ceviche_and_causas.jpg">Foto de portada</a>
-        de Kat Walsh, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
-      </li>
-      <li>
-        <a href="https://commons.wikimedia.org/wiki/File:Lomo_saltado_2026.jpg">Lomo saltado</a>
-        de TinyWinii, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
-      </li>
-      <li>
-        <a href="https://commons.wikimedia.org/wiki/File:Causa_rellena_de_pollo.jpg">Causa limeña</a>
-        de KaMpErƎ &amp; Le-tticia, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.
-      </li>
-    </ul>
-    <p>Recetario educativo. Los tiempos y las porciones son orientativos.</p>
+    <p><strong>Sazón Peruana</strong> · Proyecto escolar 2026</p>
+    <a href="https://github.com/Market-Labs/social-responsability#créditos-de-las-fotografías">Créditos de las fotos</a>
   </footer>
 </body>
 </html>

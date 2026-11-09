@@ -3,9 +3,9 @@
 ## Resumen del curso
 
 Curso introductorio para estudiantes de secundaria sin experiencia en programación.
-La práctica consiste en crear **Sazón Peruana**, un recetario escolar con dos
-recetas completas y un ejercicio para agregar otra. El ejemplo utiliza
-etiquetas HTML y estilos básicos de color, letra y espaciado.
+La práctica consiste en crear **Sazón Peruana**, una página educativa dedicada
+al ceviche peruano. El ejemplo utiliza etiquetas HTML y estilos básicos de
+color, letra y espaciado.
 
 [Código fuente en GitHub](https://github.com/Market-Labs/social-responsability)
 
@@ -17,7 +17,7 @@ etiquetas HTML y estilos básicos de color, letra y espaciado.
 | Modalidad | Seis lecciones con demostraciones y pausas para practicar. |
 | Lenguajes | HTML5 y CSS3. |
 | Herramientas | Navegador, editor gratuito en línea, GitHub y YouTube. |
-| Resultado | Recetario con dos recetas completas y una práctica guiada. |
+| Resultado | Una receta de ceviche con fotos de los ingredientes y pasos numerados. |
 
 ## Qué aprenderás
 
@@ -56,15 +56,16 @@ demostraciones en el editor en línea.
 
 ## Proyecto de práctica
 
-1. **Portada** con el nombre del recetario, una foto y enlaces de texto.
-2. **Recetas** de lomo saltado y causa limeña con fotos, ingredientes y pasos.
-3. **Ahora te toca a ti** con dos opciones para practicar: ají de gallina y arroz chaufa.
-4. **Pie de página** con los créditos de las fotos del ejemplo.
+1. **Portada** con el título y una foto de ceviche peruano.
+2. **Ingredientes** con fotos y cantidades de pescado, cebolla, condimentos y limón.
+3. **Preparación** con pasos numerados para armar el ceviche.
+4. **Pie de página** con el nombre del proyecto y un enlace a los créditos.
 
-El recetario tiene un archivo HTML y una hoja CSS en «completed-examples».
-«starter-files» contiene cinco fotos JPG. Tres aparecen en la portada y las
-dos recetas. Las de ají de gallina y arroz chaufa quedan para la práctica.
+El ejemplo está en «completed-examples» y sus cinco fotos JPG en «starter-files».
 La carpeta «scripts» está reservada para los guiones.
+
+La práctica escolar recomienda pescado bien cocido. Consulta las guías de
+manipulación y consumo seguro de pescado. [EsSalud](https://www.essalud.gob.pe/essalud-advierte-que-el-pescado-en-mal-estado-sea-frito-o-hervido-causa-igual-dano-a-la-salud/) · [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
 
 ## Secuencia de lecciones según la guía de exposición
 
@@ -84,14 +85,13 @@ Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
 
 ## Créditos de las fotografías
 
-Estas fotos de Wikimedia Commons están disponibles para el ejemplo y
-para el ejercicio. Conserva el crédito correspondiente si agregas una
-de las fotos de práctica a tu recetario.
+Las fotos provienen de Wikimedia Commons. Las de los ingredientes se guardaron
+en tamaño reducido y su encuadre se ajusta con CSS.
 
-| Plato | Autor | Obra | Licencia |
+| Archivo | Autor | Obra | Licencia |
 | --- | --- | --- | --- |
-| Portada | Kat Walsh | [La Mar ceviche and causas.jpg](https://commons.wikimedia.org/wiki/File:La_Mar_ceviche_and_causas.jpg) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
-| Lomo saltado | TinyWinii | [Lomo saltado 2026.jpg](https://commons.wikimedia.org/wiki/File:Lomo_saltado_2026.jpg) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Causa limeña | KaMpErƎ & Le-tticia | [Causa rellena de pollo.jpg](https://commons.wikimedia.org/wiki/File:Causa_rellena_de_pollo.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
-| Ají de gallina | ajax15 | [Aji de Gallina.jpg](https://commons.wikimedia.org/wiki/File:Aji_de_Gallina.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
-| Arroz chaufa | Dtarazona | [Arroz chaufa simple.JPG](https://commons.wikimedia.org/wiki/File:Arroz_chaufa_simple.JPG) | Dominio público según la ficha de la obra |
+| ceviche-portada.jpg | ProjectManhattan | [Ceviche at Peru.jpg](https://commons.wikimedia.org/wiki/File:Ceviche_at_Peru.jpg) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| pescado.jpg | サフィル | [Hirame flatfish and suzuki seabass fillet.JPG](https://commons.wikimedia.org/wiki/File:Hirame_flatfish_and_suzuki_seabass_fillet.JPG) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| cebolla.jpg | darwin Bell | [Red onions.jpg](https://commons.wikimedia.org/wiki/File:Red_onions.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| condimentos.jpg | Kpsudeep | [Bunches of coriander leaves.jpg](https://commons.wikimedia.org/wiki/File:Bunches_of_coriander_leaves.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| limon.jpg | Dtarazona | [Limones 09092009.JPG](https://commons.wikimedia.org/wiki/File:Limones_09092009.JPG) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
