@@ -1,15 +1,22 @@
 # Fundamentos de Desarrollo Web
 ## Resumen del Curso
-Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. La práctica consiste en crear **Sazón Peruana**, una página educativa dedicada al ceviche peruano. **¡No requiere descargas!** Solo abre tu navegador web.
+Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. La práctica consiste en crear **_Sazón Peruana_**, una página educativa dedicada al ceviche peruano. ¡No requiere descargas! Solo abre tu navegador web.
 
 **Duración total**: ~60 minutos
+
 **Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación
+
 **Prerrequisitos**: Ninguno
+
 **Modalidad**: Seis lecciones con demostraciones y pausas para practicar
+
 **Lenguajes**: HTML5 y CSS3
+
 **Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge), un editor gratuito en línea ([jsfiddle.net](https://jsfiddle.net/)), GitHub y YouTube
+
 **Resultado**: Una receta de ceviche con fotos de los ingredientes y pasos numerados
-**📁 Repositorio de código fuente**: [https://github.com/Market-Labs/social-responsability](https://github.com/Market-Labs/social-responsability)
+
+**Repositorio de código fuente**: [https://github.com/Market-Labs/social-responsability](https://github.com/Market-Labs/social-responsability)
 
 ## Qué aprenderás
 - Reconocer la función de HTML y CSS en una página web.
