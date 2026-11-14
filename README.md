@@ -30,7 +30,7 @@ color, letra y espaciado.
 
 ## Cómo empezar sin instalar herramientas
 
-1. Abre un editor gratuito en línea desde tu navegador.
+1. Abre un editor gratuito en línea desde tu navegador. Para este curso, usaremos jsfiddle.net
 2. Crea los archivos «index.html» y «styles.css».
 3. Copia el HTML y el CSS del recetario en los archivos correspondientes
    del editor. [index.html](completed-examples/Lesson%205/index.html) ·
@@ -76,7 +76,7 @@ Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
 | Lección | Actividad | Duración | Editor precargado |
 | --- | --- | --- | --- |
 | 1 | ¿Qué es una página web? | 8 min | [URL](https://youtu.be/2W8oCqhjmNU) |
-| 2 | Primeros pasos con HTML | 10 min | Pendiente |
+| 2 | Primeros pasos con HTML | 11 min | [URL](https://www.youtube.com/watch?v=JE2ZgT4mFgQ) |
 | 3 | Listas, imágenes y enlaces | 8 min | Pendiente |
 | 4 | Introducción a CSS | 12 min | Pendiente |
 | 5 | Crear una página web de recetas | 15 min | Pendiente |
