@@ -80,16 +80,6 @@ https://raw.githubusercontent.com/Market-Labs/social-responsability/main/starter
 - **Consejos clave**: Revisa las rutas de las imágenes y el nombre de la hoja de estilos.
 - **Comparte tu Trabajo**: Enlace pendiente
 
-## Proyecto de práctica: Sazón Peruana
-1. **Portada** con un menú superior, un degradado cálido y una foto de ceviche peruano.
-2. **Ingredientes** con fotos y cantidades de pescado, cebolla, condimentos y limón.
-3. **Preparación** con pasos numerados para armar el ceviche.
-4. **Pie de página** con el nombre y el año del proyecto escolar.
-
-El HTML y el CSS del proyecto final están en «completed-examples/Lesson 5». Las cinco fotos JPG están en «starter-files/Lesson 5». La carpeta «scripts» está reservada para los guiones.
-
-> **Nota de seguridad**: La práctica escolar recomienda pescado bien cocido. Consulta las guías de manipulación y consumo seguro de pescado: [EsSalud](https://www.essalud.gob.pe/essalud-advierte-que-el-pescado-en-mal-estado-sea-frito-o-hervido-causa-igual-dano-a-la-salud/) · [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
-
 ## Recursos Adicionales
 - **Código Fuente Completo**: [Repositorio de GitHub](https://github.com/Market-Labs/social-responsability)
 - **Todas las Actividades Prácticas**:
