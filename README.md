@@ -1,26 +1,17 @@
-# Fundamentos de desarrollo web con HTML y CSS
+# Fundamentos de Desarrollo Web
+## Resumen del Curso
+Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. La práctica consiste en crear **Sazón Peruana**, una página educativa dedicada al ceviche peruano. **¡No requiere descargas!** Solo abre tu navegador web.
 
-## Resumen del curso
-
-Curso introductorio para estudiantes de secundaria sin experiencia en programación.
-La práctica consiste en crear **Sazón Peruana**, una página educativa dedicada
-al ceviche peruano. El ejemplo utiliza etiquetas HTML y estilos básicos de
-color, letra y espaciado.
-
-[Código fuente en GitHub](https://github.com/Market-Labs/social-responsability)
-
-| Aspecto | Descripción |
-| --- | --- |
-| Público | Estudiantes de secundaria de 12 a 17 años. |
-| Experiencia previa | No se requiere experiencia en programación. |
-| Duración planificada | 60 minutos. |
-| Modalidad | Seis lecciones con demostraciones y pausas para practicar. |
-| Lenguajes | HTML5 y CSS3. |
-| Herramientas | Navegador, editor gratuito en línea, GitHub y YouTube. |
-| Resultado | Una receta de ceviche con fotos de los ingredientes y pasos numerados. |
+**Duración total**: ~60 minutos
+**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación
+**Prerrequisitos**: Ninguno
+**Modalidad**: Seis lecciones con demostraciones y pausas para practicar
+**Lenguajes**: HTML5 y CSS3
+**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge), un editor gratuito en línea ([jsfiddle.net](https://jsfiddle.net/)), GitHub y YouTube
+**Resultado**: Una receta de ceviche con fotos de los ingredientes y pasos numerados
+**📁 Repositorio de código fuente**: [https://github.com/Market-Labs/social-responsability](https://github.com/Market-Labs/social-responsability)
 
 ## Qué aprenderás
-
 - Reconocer la función de HTML y CSS en una página web.
 - Usar etiquetas, elementos y atributos de HTML.
 - Crear encabezados, párrafos, listas, imágenes y enlaces internos.
@@ -29,54 +20,77 @@ color, letra y espaciado.
 - Revisar las rutas de las imágenes y el nombre de la hoja de estilos.
 
 ## Cómo empezar sin instalar herramientas
-
-1. Abre un editor gratuito en línea desde tu navegador. Para este curso, usaremos [jsfiddle.net](https://jsfiddle.net/)
+1. Abre [jsfiddle.net](https://jsfiddle.net/) desde tu navegador.
 2. Crea los archivos «index.html» y «styles.css».
-3. Copia el HTML y el CSS del recetario en los archivos correspondientes
-   del editor. [index.html](completed-examples/Lesson%205/index.html) ·
-   [styles.css](completed-examples/Lesson%205/styles.css)
+3. Copia el HTML y el CSS del recetario: [index.html](completed-examples/Lesson%205/index.html) · [styles.css](completed-examples/Lesson%205/styles.css)
 4. Comprueba que el enlace en el HTML apunte al archivo «styles.css».
 5. Usa la vista previa para observar cada cambio.
 6. Practica cambiando el título, una descripción o un color y observa el resultado.
 
-Para probar el ejemplo en tu navegador, conserva las carpetas del repositorio
-y abre «index.html» desde «completed-examples/Lesson 5». [Abrir index.html](completed-examples/Lesson%205/index.html)
+Para probar el ejemplo en tu navegador, conserva las carpetas del repositorio y abre «index.html» desde «completed-examples/Lesson 5»: [Abrir index.html](completed-examples/Lesson%205/index.html)
 
-Si el editor solo acepta HTML y CSS, reemplaza el prefijo «../../starter-files/Lesson%205/»
-de cada ruta de imagen por la dirección de la carpeta en GitHub y conserva
-el nombre del archivo.
+Si el editor solo acepta HTML y CSS, reemplaza el prefijo «../../starter-files/Lesson%205/» de cada ruta de imagen por la dirección de la carpeta en GitHub y conserva el nombre del archivo:
 
-~~~text
+```text
 https://raw.githubusercontent.com/Market-Labs/social-responsability/main/starter-files/Lesson%205/
-~~~
+```
 
-El recetario funciona con HTML y CSS. Para el curso, realiza las
-demostraciones en el editor en línea.
+## Secuencia de la lección
 
-## Proyecto de práctica
+### Lección 1: ¿Qué es una página web? (8 minutos)
+- **Descripción**: Aprende de qué están hechas las páginas web y qué función cumplen HTML y CSS.
+- **Enlace**: [Ver la lección](https://youtu.be/2W8oCqhjmNU)
+- **Consejos clave**: Sitios web = Contenido (HTML) + Estilo (CSS).
+- **Empieza a programar**: Enlace pendiente
 
+### Lección 2: Primeros pasos con HTML (11 minutos)
+- **Descripción**: Explora las etiquetas, elementos y atributos básicos de HTML y crea tu primera página.
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=JE2ZgT4mFgQ)
+- **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
+- **Práctica**: Enlace pendiente
+
+### Lección 3: Listas, imágenes y enlaces (8 minutos)
+- **Descripción**: Agrega listas, imágenes y enlaces internos para que tu página sea más completa.
+- **Enlace**: Pendiente
+- **Consejos clave**: Usa las etiquetas `<ul>`, `<ol>`, `<img>`, `<a>`.
+- **Práctica**: Enlace pendiente
+
+### Lección 4: Introducción a CSS (12 minutos)
+- **Descripción**: Dale estilo a tu HTML con selectores y propiedades de color, fuente, espacio y borde.
+- **Enlace**: Pendiente
+- **Consejos clave**: Vincular la hoja de estilos «styles.css» y usar selectores como `body { background-color: blue; }`.
+- **Práctica**: Enlace pendiente
+
+### Lección 5: Crear una página web de recetas (15 minutos)
+- **Descripción**: Combina HTML y CSS para crear **Sazón Peruana**, un recetario de ceviche con portada, ingredientes, preparación y pie de página.
+- **Enlace**: Pendiente
+- **Consejos clave**: Aplicar estilos, adaptar la página a pantallas pequeñas y depurar errores.
+- **Proyecto Final**: [Ver código completado](completed-examples/Lesson%205/index.html)
+
+### Lección 6: Errores comunes y próximos pasos (7 minutos)
+- **Descripción**: Revisa los errores más comunes y los pasos para seguir aprendiendo.
+- **Enlace**: Pendiente
+- **Consejos clave**: Revisa las rutas de las imágenes y el nombre de la hoja de estilos.
+- **Comparte tu Trabajo**: Enlace pendiente
+
+## Proyecto de práctica: Sazón Peruana
 1. **Portada** con un menú superior, un degradado cálido y una foto de ceviche peruano.
 2. **Ingredientes** con fotos y cantidades de pescado, cebolla, condimentos y limón.
 3. **Preparación** con pasos numerados para armar el ceviche.
 4. **Pie de página** con el nombre y el año del proyecto escolar.
 
-El HTML y el CSS del proyecto final están en «completed-examples/Lesson 5».
-Las cinco fotos JPG están en «starter-files/Lesson 5».
-La carpeta «scripts» está reservada para los guiones.
+El HTML y el CSS del proyecto final están en «completed-examples/Lesson 5». Las cinco fotos JPG están en «starter-files/Lesson 5». La carpeta «scripts» está reservada para los guiones.
 
-La práctica escolar recomienda pescado bien cocido. Consulta las guías de
-manipulación y consumo seguro de pescado. [EsSalud](https://www.essalud.gob.pe/essalud-advierte-que-el-pescado-en-mal-estado-sea-frito-o-hervido-causa-igual-dano-a-la-salud/) · [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
+> **Nota de seguridad**: La práctica escolar recomienda pescado bien cocido. Consulta las guías de manipulación y consumo seguro de pescado: [EsSalud](https://www.essalud.gob.pe/essalud-advierte-que-el-pescado-en-mal-estado-sea-frito-o-hervido-causa-igual-dano-a-la-salud/) · [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely)
 
-## Secuencia de lecciones según la guía de exposición
+## Recursos Adicionales
+- **Código Fuente Completo**: [Repositorio de GitHub](https://github.com/Market-Labs/social-responsability)
+- **Todas las Actividades Prácticas**:
 
-La exposición conserva sus 28 diapositivas y la duración de 60 minutos.
-La práctica de la lección 5 aplica el trabajo de HTML y CSS al recetario.
-Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
-
-| Lección | Actividad | Duración | Editor precargado |
-| --- | --- | --- | --- |
-| 1 | ¿Qué es una página web? | 8 min | [URL](https://youtu.be/2W8oCqhjmNU) |
-| 2 | Primeros pasos con HTML | 11 min | [URL](https://www.youtube.com/watch?v=JE2ZgT4mFgQ) |
+| Lección # | Actividad | Duración | Editor precargado |
+|----------|----------|----------|-------------|
+| 1 | ¿Qué es una página web? | 8 min | [YouTube](https://youtu.be/2W8oCqhjmNU) |
+| 2 | Primeros pasos con HTML | 11 min | [YouTube](https://www.youtube.com/watch?v=JE2ZgT4mFgQ) |
 | 3 | Listas, imágenes y enlaces | 8 min | Pendiente |
 | 4 | Introducción a CSS | 12 min | Pendiente |
 | 5 | Crear una página web de recetas | 15 min | Pendiente |
@@ -84,9 +98,7 @@ Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
 | **Total** | | **60 min** | |
 
 ## Créditos de las fotografías
-
-Las fotos provienen de Wikimedia Commons. Las de los ingredientes se guardaron
-en tamaño reducido y su encuadre se ajusta con CSS.
+Las fotos provienen de Wikimedia Commons. Las de los ingredientes se guardaron en tamaño reducido y su encuadre se ajusta con CSS.
 
 | Archivo | Autor | Obra | Licencia |
 | --- | --- | --- | --- |
@@ -95,3 +107,18 @@ en tamaño reducido y su encuadre se ajusta con CSS.
 | cebolla.jpg | darwin Bell | [Red onions.jpg](https://commons.wikimedia.org/wiki/File:Red_onions.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | condimentos.jpg | Kpsudeep | [Bunches of coriander leaves.jpg](https://commons.wikimedia.org/wiki/File:Bunches_of_coriander_leaves.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | limon.jpg | Dtarazona | [Limones 09092009.JPG](https://commons.wikimedia.org/wiki/File:Limones_09092009.JPG) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+**¡Gracias por completar el curso!**
+
+---
+## 📝 Elaboración
+Universidad Peruana de Ciencias Aplicadas
+Carrera de Ingeniería de Software
+Período 202620
+1ASI0730 Aplicaciones Web
+NRC [Número de NRC]
+
+**Nombre del equipo**: [Nombre de su equipo]
+**Líder del equipo**: [Nombres y Apellidos del líder]
+**Integrantes del equipo**: [Nombres y Apellidos de cada participante]
+**Fecha de entrega**: [Fecha]
