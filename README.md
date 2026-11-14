@@ -75,7 +75,7 @@ Los enlaces de las lecciones y de los ejercicios precargados están pendientes.
 
 | Lección | Actividad | Duración | Editor precargado |
 | --- | --- | --- | --- |
-| 1 | ¿Qué es una página web? | 8 min | Pendiente |
+| 1 | ¿Qué es una página web? | 8 min | [URL](https://youtu.be/2W8oCqhjmNU) |
 | 2 | Primeros pasos con HTML | 10 min | Pendiente |
 | 3 | Listas, imágenes y enlaces | 8 min | Pendiente |
 | 4 | Introducción a CSS | 12 min | Pendiente |
