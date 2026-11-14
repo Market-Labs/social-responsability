@@ -14,7 +14,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 **Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge), un editor gratuito en línea ([jsfiddle.net](https://jsfiddle.net/)), GitHub y YouTube
 
-**Resultado**: Una receta de ceviche con fotos de los ingredientes y pasos numerados
+**Resultado**: Una página web con contenido de receta de ceviche con fotos de los ingredientes y pasos numerados.
 
 **Repositorio de código fuente**: [https://github.com/Market-Labs/social-responsability](https://github.com/Market-Labs/social-responsability)
 
