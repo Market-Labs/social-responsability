@@ -30,7 +30,7 @@ color, letra y espaciado.
 
 ## Cómo empezar sin instalar herramientas
 
-1. Abre un editor gratuito en línea desde tu navegador. Para este curso, usaremos jsfiddle.net
+1. Abre un editor gratuito en línea desde tu navegador. Para este curso, usaremos [jsdiddle.net](jsfiddle.net)
 2. Crea los archivos «index.html» y «styles.css».
 3. Copia el HTML y el CSS del recetario en los archivos correspondientes
    del editor. [index.html](completed-examples/Lesson%205/index.html) ·
