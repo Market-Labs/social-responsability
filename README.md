@@ -108,14 +108,19 @@ Las fotos provienen de Wikimedia Commons. Las de los ingredientes se guardaron e
 **¡Gracias por completar el curso!**
 
 ---
-## 📝 Elaboración
+## Elaboración
 Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software
 Período 202620
 1ASI0730 Aplicaciones Web
-NRC [Número de NRC]
+NRC 8130
 
-**Nombre del equipo**: [Nombre de su equipo]
-**Líder del equipo**: [Nombres y Apellidos del líder]
-**Integrantes del equipo**: [Nombres y Apellidos de cada participante]
-**Fecha de entrega**: [Fecha]
+**Nombre del equipo**: Market-Labs
+**Líder del equipo**: Albino Caceres Pizarro
+**Integrantes del equipo**: 
+Albino Caceres Pizzarro
+Alexis
+Matias
+Matias
+Winnie Merino Ordinola 
+**Fecha de entrega**: 15/11/2026
